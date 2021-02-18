@@ -354,5 +354,6 @@ function Set-RDPPort
 
 }#end of Function
 
+$rServerName = Read-Host "Type the Hostname that you want to change the RDP Port"
 
 Set-RDPPort -rServerName $rServerName -rdpPortNumber 33389
